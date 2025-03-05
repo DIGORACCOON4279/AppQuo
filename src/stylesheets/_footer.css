@@ -77,11 +77,13 @@
     width:55%;
     height:auto;
     display: flex;
+    flex-wrap:wrap;
     flex-direction: column;
     justify-content: center;
     gap:20px;
     align-items: center;
     margin:0px 0px 0px 50px;
+    background-color: aliceblue;
 }
 
 .footerContainer .footerHeading .columnOne .socialNetwork .contactus{
@@ -102,6 +104,8 @@
     justify-content: flex-start;
     align-items: center;
     gap:15px;
+    background-color: rgb(65, 133, 192);
+
 }
 
 .footerContainer .footerHeading .columnOne .socialNetwork .socialNetworkIcons .item{
