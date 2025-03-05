@@ -1,0 +1,54 @@
+
+/* Landing Page */
+
+@import "_commons.css";
+@import "_heroSection.css";
+@import "_header.css";
+@import "_mercados.css";
+@import "_trading.css";
+@import "_fees.css";
+@import "_security.css";
+@import "_academy.css";
+@import "_blog.css";
+@import "_testimony.css";
+@import "_faq.css";
+@import "_appMobile.css";
+@import "_footer.css";
+
+/* Register */
+
+@import "_register.css";
+
+/* Login */
+
+@import "_login.css";
+
+/* Profile - Menuside*/
+
+/* Welcome */
+
+@import "_welcome.css";
+
+/* Portfolio */
+
+@import "_portfolio.css";
+
+/* Academy Cripto */
+
+@import "_academyCripto.css";
+
+/* Membership */
+
+@import "_membership.css";
+
+/* User */
+
+@import "_user.css";
+
+/* Setting */
+
+@import "_setting.css";
+
+/* SignOut */
+
+@import "_signOut.css";

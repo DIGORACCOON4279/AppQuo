@@ -1,0 +1,24 @@
+
+
+:root{
+
+    /* Font Family */
+
+    --fontFamilyIBM:"IBM Plex Sans", serif;
+    --fontFamilySpace:"Space Mono", serif;
+
+    /* Font-Weight */
+
+    
+
+
+    /* Font Size */
+
+    --fontSizeOne:1rem;
+    --fontSizeTwo:1.125rem;
+
+    --fontSizeHeading:4.062rem;
+
+    /* 0.75rem */
+
+}
