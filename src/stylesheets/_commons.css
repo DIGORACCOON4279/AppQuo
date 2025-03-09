@@ -24,7 +24,6 @@ html{
 
 .bodyLogin{
     background: linear-gradient(180deg, #000E00 0%, #172F1F 100%);
-    background: linear-gradient(180deg, #000E00 0%, #172F1F 100%);
     background-repeat:no-repeat;
     background-position: 100%;
     background-size: cover;
@@ -305,4 +304,35 @@ en las pages del usuario */
 .containerFooter .socialNetworkIcons .item .iconSocial:hover{
     transform: scale(103%);
 
+}
+
+/* Loader de pantalla completa */
+
+#loader {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Animación del spinner */
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #393939;
+    border-top-color: #00ff66;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
